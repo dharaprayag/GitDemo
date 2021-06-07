@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="41328" started-at="2021-05-14T07:50:42 EDT" finished-at="2021-05-14T07:51:24 EDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="41328" started-at="2021-05-14T07:50:42 EDT" finished-at="2021-05-14T07:51:24 EDT">
+      <class name="Academy.HomePage">
+        <test-method status="PASS" signature="DDDDD()[pri:0, instance:Academy.HomePage@14dd9eb7]" name="DDDDD" duration-ms="34" started-at="2021-05-14T07:50:42 EDT" finished-at="2021-05-14T07:50:42 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DDDDD -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@14dd9eb7]" name="basePageNavigation" duration-ms="19075" started-at="2021-05-14T07:50:42 EDT" data-provider="getData" finished-at="2021-05-14T07:51:01 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricteduser@hfj.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[112324]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[text]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@14dd9eb7]" name="basePageNavigation" duration-ms="10510" started-at="2021-05-14T07:51:01 EDT" data-provider="getData" finished-at="2021-05-14T07:51:12 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricteduser@dpd.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[17061992]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Restricted User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@14dd9eb7]" name="basePageNavigation" duration-ms="10819" started-at="2021-05-14T07:51:12 EDT" data-provider="getData" finished-at="2021-05-14T07:51:23 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abdcdljd@jfj.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[u7t6757657]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[dbdjisos]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.HomePage@14dd9eb7]" name="tearDown" is-config="true" duration-ms="768" started-at="2021-05-14T07:51:23 EDT" finished-at="2021-05-14T07:51:24 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Academy.HomePage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
