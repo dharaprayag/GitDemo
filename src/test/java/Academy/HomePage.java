@@ -22,10 +22,10 @@ public class HomePage extends Base
 	public void basePageNavigation(String username, String password, String text) throws IOException
 	{
 		try {
-			log.info("This is Info massage3");
-			log.debug("This is Debuug messsage3");
-			log.error("This is error message3");
-			log.fatal("This is fatal message3");
+			log.info("This is Info massage4");
+			log.debug("This is Debuug messsage4");
+			log.error("This is error message4");
+			log.fatal("This is fatal message4");
 		driver = initilizeDriver();
 		driver.get(siteUrl);
 		LandingPage l = new LandingPage(driver);
