@@ -37,7 +37,7 @@ public class HomePage extends Base
 		System.out.println("change to message8");
 		System.out.println("now change to message9");
 		System.out.println("home page");
-		System.out.println("home page 1");
+		System.out.println("home page 2");
 		
 		log.info(username);
 		lp.getLogin().click();	
