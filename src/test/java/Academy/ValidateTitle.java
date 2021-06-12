@@ -36,6 +36,8 @@ public class ValidateTitle extends Base
 		
 		Assert.assertEquals(l.getTitle().getText(), titleName);
 		log.info("Successfully validated text message");
+		System.out.println("validate title");
+		System.out.println("validate title 1");
 	}
 	@AfterTest
 	public void tearDown()
