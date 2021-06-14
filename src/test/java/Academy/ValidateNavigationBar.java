@@ -44,8 +44,8 @@ public class ValidateNavigationBar extends Base
 		//compare the text from the browser with actual text. 
 		Assert.assertTrue(l.getNavigationBar().isDisplayed());
 		log.info("Navigation bar is displayed");
-		System.out.println("validate navigation bar 1");
 		System.out.println("validate navigation bar 2");
+		System.out.println("validate navigation bar 3");
 		
 	}
 	
